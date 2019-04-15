@@ -1,5 +1,5 @@
 image_path
-predict-data/greta.jpg
-predict-data/tom.jpg
-predict-data/sergio.jpg
-predict-data/tracey.jpg
+data/tom.jpg
+data/sergio.jpg
+data/greta.jpg
+data/tracey.jpg

@@ -15,11 +15,12 @@
             "<UNK>",
             "background",
             "smile",
+            "shirt",
             "longhair",
             "glasses",
             "beard"
         ],
-        "max_set_size": 3,
+        "max_set_size": 4,
         "preprocessing": {
             "fill_value": "",
             "format": "space",
@@ -34,17 +35,19 @@
             "beard": 4,
             "glasses": 4,
             "longhair": 6,
+            "shirt": 7,
             "smile": 9
         },
         "str2idx": {
             "<PAD>": 0,
             "<UNK>": 1,
             "background": 2,
-            "beard": 6,
-            "glasses": 5,
-            "longhair": 4,
+            "beard": 7,
+            "glasses": 6,
+            "longhair": 5,
+            "shirt": 4,
             "smile": 3
         },
-        "vocab_size": 7
+        "vocab_size": 8
     }
 }

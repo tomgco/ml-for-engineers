@@ -1,11 +1,9 @@
-image_path
-predict-data/annie.jpg
-predict-data/anthony.jpg
-predict-data/bradley.jpg
-predict-data/carlos.jpg
-predict-data/fabio.jpg
-predict-data/gareth.jpg
-predict-data/greta.jpg
-predict-data/nuno.jpg
-predict-data/tracey.jpg
-predict-data/tom.jpg
+image_path,tags
+data/annie.jpg,background longhair smile
+data/anthony.jpg,glasses background smile
+data/bradley.jpg,background smile
+data/carlos.jpg,beard background shirt
+data/fabio.jpg,background longhair smile shirt
+data/greta.jpg,background longhair smile
+data/gareth.jpg,background shirt
+data/nuno.jpg,background shirt

@@ -6,8 +6,10 @@ input_features:
 output_features:
     - name: tags
       type: set
+      threshold: 0.8
 
 training:
+  epochs: 500
   learning_rate: 0.0000001
   decay: true
   staircase: true
