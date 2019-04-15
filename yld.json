@@ -1,0 +1,50 @@
+{
+    "image_path": {
+        "preprocessing": {
+            "height": 168,
+            "in_memory": true,
+            "missing_value_strategy": "backfill",
+            "num_channels": 3,
+            "resize_method": "crop_or_pad",
+            "width": 168
+        }
+    },
+    "tags": {
+        "idx2str": [
+            "<PAD>",
+            "<UNK>",
+            "background",
+            "smile",
+            "longhair",
+            "glasses",
+            "beard"
+        ],
+        "max_set_size": 3,
+        "preprocessing": {
+            "fill_value": "",
+            "format": "space",
+            "lowercase": false,
+            "missing_value_strategy": "fill_with_const",
+            "most_common": 10000
+        },
+        "str2freq": {
+            "<PAD>": 0,
+            "<UNK>": 0,
+            "background": 16,
+            "beard": 4,
+            "glasses": 4,
+            "longhair": 6,
+            "smile": 9
+        },
+        "str2idx": {
+            "<PAD>": 0,
+            "<UNK>": 1,
+            "background": 2,
+            "beard": 6,
+            "glasses": 5,
+            "longhair": 4,
+            "smile": 3
+        },
+        "vocab_size": 7
+    }
+}
