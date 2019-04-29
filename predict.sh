@@ -11,4 +11,3 @@ cat predict.csv | sed 1d | while read -r line; do
   convert -fill red -pointsize 20 -draw "text 4,20 '$TEXT'" "$line" "gen/$line"
   (( count++ ))
 done
-trash predictions
